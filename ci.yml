@@ -1,9 +1,0 @@
-name: CI/CD
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout du code
-        uses: actions/checkout@v4
